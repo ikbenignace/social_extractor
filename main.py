@@ -1,12 +1,14 @@
 #Main file
 #Zip Selector
 #Invoke script for selected platform
+import os
 
-
+script_directory = os.path.dirname(os.path.realpath(__file__))
+print()
 def snap(): #Start the snapchat script
 
-    print('test')
-    exec(open("snap.py").read())
+    path_snap_script = script_directory + '/snap.py'
+    exec(open(path_snap_script).read())
 
 
 while True:
