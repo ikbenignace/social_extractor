@@ -17,3 +17,6 @@ while True:
     if int(platform_selector) == 1:
         snap()
 
+    else:
+        pass
+
