@@ -3,7 +3,12 @@
 #Invoke script for selected platform
 import os
 
+
+#VARIABLES
 script_directory = os.path.dirname(os.path.realpath(__file__))
+
+#Main
+
 print()
 def snap(): #Start the snapchat script
 
@@ -19,4 +24,7 @@ while True:
 
     else:
         pass
+
+
+
 
